@@ -1,6 +1,6 @@
 # Data Analytics Portfolio
 
-A collection of end-to-end data analytics projects completed through independent work and professional training. These projects demonstrate skills in SQL, PostgreSQL, Tableau, business analysis, data visualization, customer behavior analysis, and KPI reporting.
+A collection of end-to-end data analytics projects completed through independent work and professional training. These projects demonstrate skills in SQL, PostgreSQL, Tableau, spreadsheets, business analysis, data visualization, and KPI development.
 
 ## Technical Skills
 
@@ -8,27 +8,23 @@ A collection of end-to-end data analytics projects completed through independent
 * PostgreSQL
 * Tableau
 * Excel / Google Sheets
-* Data Cleaning
 * Data Visualization
+* Data Cleaning
 * Exploratory Data Analysis (EDA)
-* KPI Development
 * Business Analysis
-
----
+* KPI Development
 
 ## Featured Projects
 
-| Project                                         | Tools             | Description                                                                                                                                                     |
-| ----------------------------------------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Restaurant Revenue Analysis Dashboard           | Tableau           | Analyzed restaurant sales performance to identify key revenue drivers, top-performing markets, and business opportunities.                                      |
-| Restaurant Revenue Analysis Using PostgreSQL    | PostgreSQL, SQL   | Built a relational database from multiple datasets and analyzed geographic performance, customer ordering behavior, restaurant ratings, and market competition. |
-| Superstore Profitability & Return Rate Analysis | Tableau           | Examined the relationship between profitability and product return rates to identify opportunities for improving business performance.                          |
-| E-commerce User Behavior & Retention Analysis   | SQL, Spreadsheets | Analyzed customer conversion funnels and user retention patterns to identify areas for improving website performance.                                           |
-| Airbnb Manhattan Investment Analysis            | Spreadsheets      | Evaluated listing performance to determine the most profitable investment opportunities in Manhattan.                                                           |
-| Fresh Beats Marketing Analysis                  | Spreadsheets      | Developed a data-driven marketing strategy to improve free-to-paid user conversion rates.                                                                       |
-| Superstore Return Rate Analysis                 | Tableau           | Investigated the primary drivers behind high product return rates and provided recommendations for reducing returns.                                            |
-
----
+| Project                                         | Tools              | Description                                                                                                                                                     |
+| :---------------------------------------------- | :----------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Restaurant Revenue Analysis Using PostgreSQL    | PostgreSQL, SQL    | Built a relational database from multiple datasets and analyzed geographic performance, customer ordering behavior, restaurant ratings, and market competition. |
+| Restaurant Sales Performance Dashboard          | Tableau            | Designed an interactive dashboard to identify revenue drivers, top-performing markets, and sales trends across restaurants.                                     |
+| Superstore Profitability & Return Rate Analysis | Tableau            | Analyzed the relationship between profitability and return rates to identify opportunities for improving business performance.                                  |
+| E-commerce User Behavior & Retention Analysis   | SQL, Google Sheets | Evaluated customer conversion funnels and user retention trends to identify opportunities for improving website performance.                                    |
+| Airbnb Manhattan Listings Analysis              | Google Sheets      | Identified the most profitable Manhattan property investment opportunities using listing performance data.                                                      |
+| Fresh Beats Marketing Analysis                  | Google Sheets      | Developed a data-driven marketing strategy to increase free-to-paid user conversions.                                                                           |
+| Superstore Return Rate Analysis                 | Tableau            | Investigated the primary drivers behind high product return rates and provided recommendations for reducing returns.                                            |
 
 ## Current Focus
 
