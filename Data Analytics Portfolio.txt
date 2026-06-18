@@ -1,0 +1,35 @@
+# Data Analytics Portfolio
+
+A collection of end-to-end data analytics projects completed through independent work and professional training. These projects demonstrate skills in SQL, PostgreSQL, Tableau, business analysis, data visualization, customer behavior analysis, and KPI reporting.
+
+## Technical Skills
+
+* SQL
+* PostgreSQL
+* Tableau
+* Excel / Google Sheets
+* Data Cleaning
+* Data Visualization
+* Exploratory Data Analysis (EDA)
+* KPI Development
+* Business Analysis
+
+---
+
+## Featured Projects
+
+| Project                                         | Tools             | Description                                                                                                                                                     |
+| ----------------------------------------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Restaurant Revenue Analysis Dashboard           | Tableau           | Analyzed restaurant sales performance to identify key revenue drivers, top-performing markets, and business opportunities.                                      |
+| Restaurant Revenue Analysis Using PostgreSQL    | PostgreSQL, SQL   | Built a relational database from multiple datasets and analyzed geographic performance, customer ordering behavior, restaurant ratings, and market competition. |
+| Superstore Profitability & Return Rate Analysis | Tableau           | Examined the relationship between profitability and product return rates to identify opportunities for improving business performance.                          |
+| E-commerce User Behavior & Retention Analysis   | SQL, Spreadsheets | Analyzed customer conversion funnels and user retention patterns to identify areas for improving website performance.                                           |
+| Airbnb Manhattan Investment Analysis            | Spreadsheets      | Evaluated listing performance to determine the most profitable investment opportunities in Manhattan.                                                           |
+| Fresh Beats Marketing Analysis                  | Spreadsheets      | Developed a data-driven marketing strategy to improve free-to-paid user conversion rates.                                                                       |
+| Superstore Return Rate Analysis                 | Tableau           | Investigated the primary drivers behind high product return rates and provided recommendations for reducing returns.                                            |
+
+---
+
+## Current Focus
+
+I am continuing to expand this portfolio by building projects that combine business analysis, SQL, relational databases, and data visualization to solve real-world business problems.
