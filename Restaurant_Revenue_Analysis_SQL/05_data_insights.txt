@@ -1,1 +1,22 @@
+DATA INSIGHTS
+
+Revenue Distribution
+
+* Revenue was broadly distributed across restaurants rather than concentrated among a small number of businesses.
+
+Cuisine Data Quality
+
+* Cuisine values often contained multiple categories within a single field (ex: North Indian, Chinese), requiring additional cleaning before deeper cuisine analysis.
+
+Restaurant Activity
+
+* Some restaurants existed in the restaurants dataset without corresponding order activity.
+
+Project Development Process
+
+* Several exploratory analyses were performed before narrowing the project down to the most meaningful business questions.
+
+Key Takeaway
+
+* Data analysis is an iterative process. Initial hypotheses were tested, validated, and adjusted based on the results of the analysis.
 
