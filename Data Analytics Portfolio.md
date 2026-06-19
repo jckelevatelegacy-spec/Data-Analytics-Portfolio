@@ -8,10 +8,10 @@ A collection of data analytics projects completed through professional training 
 * PostgreSQL
 * Tableau
 * Excel / Google Sheets
-* Data Visualization
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
 * Business Analysis
+* Data Visualization
+* Exploratory Data Analysis (EDA)
+* Data Cleaning
 * KPI Development
 
 ## Featured Projects
