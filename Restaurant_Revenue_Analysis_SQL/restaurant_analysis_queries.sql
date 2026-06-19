@@ -1,117 +1,65 @@
 /* ==========================================
-DATA VALIDATION
-========================================== */
-
-SELECT COUNT(*) AS total_orders
-FROM orders;
-
-SELECT COUNT(*) AS total_restaurants
-FROM restaurants;
-
-SELECT COUNT(DISTINCT r_id) AS unique_restaurants_with_orders
-FROM orders;
-
-SELECT COUNT(DISTINCT r_id) AS unique_restaurants
-FROM restaurants;
-
-/* ==========================================
-TOP RESTAURANTS BY REVENUE
+01 REVENUE BY CITY
 ========================================== */
 
 SELECT
-r.name,
-r.city,
-SUM(o.revenue_usd) AS total_revenue
-
-FROM orders o
-
-JOIN restaurants r
-
-ON o.r_id = r.r_id
-
-WHERE o.revenue_usd IS NOT NULL
-
+    r.city,
+    ROUND(SUM(o.revenue_usd),2) AS total_revenue
+FROM
+    orders o JOIN restaurants r ON o.r_id = r.r_id
+WHERE
+    o.revenue_usd IS NOT NULL
 GROUP BY
-r.name,
-r.city
-
-ORDER BY total_revenue DESC
-
+    r.city
+ORDER BY
+    total_revenue DESC
 LIMIT 10;
 
 /* ==========================================
-CUISINE EXPLORATION
+02 REVENUE BY WEEKDAY
 ========================================== */
 
 SELECT
-r.cuisine,
-
-```
-SUM(o.revenue_usd) AS total_revenue
-```
-
-FROM orders o
-
-JOIN restaurants r
-
-ON o.r_id = r.r_id
-
-WHERE o.revenue_usd IS NOT NULL
-
-GROUP BY r.cuisine
-
-ORDER BY total_revenue DESC
-
-LIMIT 10;
+    weekday,
+    ROUND(SUM(revenue_usd),2) AS total_revenue
+FROM
+    orders
+WHERE
+    revenue_usd IS NOT NULL
+GROUP BY
+    weekday
+ORDER BY
+    total_revenue DESC;
 
 /* ==========================================
-REVENUE CONCENTRATION (PARETO)
+03 RATING VS REVENUE
 ========================================== */
 
-WITH restaurant_revenue AS (
-
-```
 SELECT
+    r.rating,
+    ROUND(AVG(o.revenue_usd),2) AS avg_revenue,
+    COUNT(*) AS total_orders
+FROM
+    orders o JOIN restaurants r ON o.r_id = r.r_id
+WHERE
+    o.revenue_usd IS NOT NULL
+    AND r.rating IS NOT NULL
+GROUP BY
+    r.rating
+ORDER BY
+    r.rating DESC;
 
-    o.r_id,
-
-    MAX(r.name) AS restaurant_name,
-
-    MAX(r.city) AS city,
-
-    SUM(o.revenue_usd) AS total_revenue
-
-FROM orders o
-
-JOIN restaurants r
-
-ON o.r_id = r.r_id
-
-WHERE o.revenue_usd IS NOT NULL
-
-GROUP BY o.r_id
-```
-
-)
+/* ==========================================
+04 MARKET SATURATION
+========================================== */
 
 SELECT
-
-```
-restaurant_name,
-
-city,
-
-ROUND(total_revenue,2) AS total_revenue,
-
-ROUND(
-    100 * total_revenue /
-    SUM(total_revenue) OVER (),
-4
-) AS revenue_share_percent
-```
-
-FROM restaurant_revenue
-
-ORDER BY total_revenue DESC
-
-LIMIT 20;
+    city,
+    COUNT(*) AS restaurant_count
+FROM
+    restaurants
+GROUP BY
+    city
+ORDER BY
+    restaurant_count DESC
+LIMIT 10;
