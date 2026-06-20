@@ -2,44 +2,49 @@
 
 ## Project Overview
 
-This Power BI project analyzes mobile application performance using interactive dashboards and visualizations. The goal was to identify trends in app ratings, developer performance, and user review behavior to uncover opportunities for improving application success.
+This Power BI project analyzes mobile application performance by examining app ratings, developer engagement, review trends, and customer feedback metrics.
+
+The objective was to identify relationships between customer satisfaction, developer responsiveness, and overall application performance.
 
 ## Business Questions
 
-1. Which developers have the highest-performing applications?
+1. How do app ratings vary across developers?
 
-2. How do app ratings compare across developers?
+2. What relationship exists between reviews and ratings?
 
-3. What trends exist within user reviews?
+3. Which developers receive the most customer engagement?
 
-4. Which applications demonstrate the strongest overall performance?
+4. Does developer responsiveness impact customer satisfaction?
 
 ## Tools Used
 
-* Power BI
-* Data Visualization
-* Business Analysis
+- Power BI
+- Data Visualization
+- Business Analysis
 
 ## Skills Demonstrated
 
-* Dashboard development
-* KPI creation
-* Comparative analysis
-* Scatterplot analysis
-* Trend identification
-* Data storytelling
+- Dashboard design
+- KPI development
+- Correlation analysis
+- Comparative analysis
+- Trend analysis
+- Data storytelling
 
 ## Key Findings
 
-* Developer performance varied significantly across applications.
+- Higher review volume did not always correspond to higher ratings.
 
-* User review patterns provided insight into app popularity and customer satisfaction.
+- Developer engagement varied significantly across applications.
 
-* Certain applications consistently outperformed competitors across multiple metrics.
+- Customer feedback metrics provided insight into overall app performance.
 
-* Interactive dashboards made it easier to identify performance opportunities.
+- Visual dashboards simplified identifying high-performing developers.
 
 ## Files Included
 
-* screenshots/
+- screenshots/01_app_landscape_dashboard.png
 
+- screenshots/02_app_reviews_dashboard.png
+
+- screenshots/03_reviews_dashboard.png
