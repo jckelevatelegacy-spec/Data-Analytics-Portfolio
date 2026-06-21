@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This Tableau project analyzes the relationship between product profitability and return rates. The objective was to identify high-risk products and categories where elevated return rates negatively impact business performance.
+This Tableau project analyzes the relationship between product profitability and return rates to identify high-risk products, underperforming categories, and opportunities to improve overall business performance.
 
-The analysis was designed to help stakeholders quickly identify products that should be prioritized, improved, or reconsidered.
+The analysis was designed to help stakeholders quickly identify products and categories that should be prioritized, optimized, or reconsidered.
 
 ## Business Questions
 
@@ -18,31 +18,49 @@ The analysis was designed to help stakeholders quickly identify products that sh
 
 ## Tools Used
 
-- Tableau
-- Data Visualization
-- Business Analysis
+* Tableau
+* Data Visualization
+* Business Analysis
 
 ## Skills Demonstrated
 
-- Dashboard development
-- Calculated field creation
-- Scatterplot analysis
-- Profitability analysis
-- Return rate analysis
-- Data storytelling
+* Dashboard development
+* Calculated field creation
+* Profitability analysis
+* Return rate analysis
+* Data storytelling
+* Business recommendations
 
 ## Key Findings
 
-- High sales do not always translate into high profitability.
+* Copiers generated the highest overall profit across product categories.
 
-- Certain product categories demonstrated elevated return rates and weaker profit performance.
+* Tables consistently generated losses and represented the weakest performing category.
 
-- Low return rate products generally represented more sustainable business opportunities.
+* Profitability varied considerably across regions.
 
-- Interactive dashboards simplified identifying high-risk product segments.
+* Several products experienced extremely high return rates and warrant further investigation.
+
+* Return rates alone were not always a strong predictor of profitability.
+
+## Recommendations
+
+* Reduce investment in consistently unprofitable categories.
+
+* Investigate products with exceptionally high return rates.
+
+* Prioritize resources toward top-performing categories.
+
+* Monitor return rates alongside profitability instead of treating them independently.
 
 ## Files Included
 
-- SuperStore_Profitability_Return_Rate.twbx
+* README.md
 
-- screenshots/
+* screenshots/01_regional_profit_loss.png
+
+* screenshots/02_subcategory_profit_loss.png
+
+* screenshots/03_product_return_rate.png
+
+* screenshots/04_profit_vs_return_rate.png
