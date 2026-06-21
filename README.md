@@ -1,6 +1,16 @@
 Data Analytics Portfolio
 
-A collection of data analytics projects completed through professional training and independent work. These projects demonstrate skills in SQL, PostgreSQL, Power BI, Tableau, spreadsheets, business analysis, data visualization, exploratory analysis, and KPI development.
+# Data Analytics Portfolio
+
+A collection of data analytics projects completed through professional training and independent work. These projects demonstrate skills in SQL, PostgreSQL, Tableau, Power BI, spreadsheets, business analysis, data visualization, and KPI development.
+
+## About Me
+
+I am a data analyst transitioning from a sales and business development background with over 5 years of professional experience. I enjoy transforming data into actionable business insights and building projects that combine SQL, relational databases, data visualization, and business analysis to solve real-world problems.
+
+My current focus is expanding my portfolio while continuing to strengthen my skills in PostgreSQL, Tableau, Power BI, and business intelligence.
+
+## Technical Skills
 
 ## Technical Skills
 
