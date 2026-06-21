@@ -1,125 +1,64 @@
-# Airbnb Manhattan Listings Analysis
+# Spreadsheet Data Analysis: Airbnb Investment Opportunity Analysis
 
 ## Project Overview
 
-This Excel project analyzes the Manhattan Airbnb market to identify attractive investment opportunities based on rental demand, property size preferences, and estimated revenue potential.
+This project analyzes Airbnb listing and calendar data to identify the most profitable investment opportunities in New York City.
 
-The objective was to combine market demand metrics with revenue estimates to determine which neighborhoods and property types present the strongest investment opportunities.
+The analysis evaluates listing popularity, revenue potential, neighborhood performance, and bedroom configurations to determine which properties generate the strongest returns for potential investors.
+
+The project was completed using Excel and demonstrates data cleaning, business analysis, pivot table development, and data storytelling techniques.
+
+## Business Problem
+
+Investors need to understand which Airbnb properties generate the highest revenue and what characteristics contribute to stronger performance.
+
+This analysis answers the question:
+
+**Which Airbnb listings represent the best investment opportunities based on popularity and revenue generation?**
 
 ## Business Questions
 
-1. Which Manhattan neighborhoods have the strongest rental demand?
+1. Which listings generate the most revenue?
 
-2. Which property sizes are most desirable to customers?
+2. Which neighborhoods are the most popular?
 
-3. Which listings generate the highest estimated revenue?
+3. How does bedroom count impact listing performance?
 
 4. What characteristics define high-performing investment opportunities?
 
 ## Tools Used
 
-* Excel
+* Microsoft Excel
 * Pivot Tables
-* SUMIF
+* Pivot Charts
 * Data Cleaning
 * Business Analysis
 
 ## Skills Demonstrated
 
 * Data cleaning
-* Revenue modeling
+* Data validation
+* Data transformation
 * Pivot table analysis
-* Market analysis
-* Investment analysis
-* Business recommendations
+* Revenue analysis
+* Business storytelling
+* Data visualization
 
 ## Key Findings
 
-* Harlem, Hell's Kitchen, and the Upper West Side emerged as attractive neighborhoods based on rental activity.
+* A small group of listings generated disproportionately higher revenue.
 
-* One-bedroom units consistently demonstrated strong demand across multiple neighborhoods.
+* Certain neighborhoods consistently attracted more customer demand.
 
-* Revenue potential varied substantially between listings.
+* Bedroom count influenced overall popularity and booking activity.
 
-* Combining demand metrics with revenue estimates provided a stronger framework for identifying investment opportunities.
-
-## Recommendations
-
-* Prioritize neighborhoods with strong rental activity.
-
-* Focus investment strategies on high-demand property types.
-
-* Evaluate both demand and revenue metrics before making investment decisions.
-
-* Continue monitoring market trends over time.
+* Combining location and property characteristics helps identify stronger investment opportunities.
 
 ## Files Included
 
-# Airbnb Manhattan Listings Analysis
+* Spreadsheet_Data_Analysis_Project.pdf
+* screenshots/
 
-## Project Overview
+## Project Outcome
 
-This Excel project analyzes the Manhattan Airbnb market to identify attractive investment opportunities based on rental demand, property size preferences, and estimated revenue potential.
-
-The objective was to combine market demand metrics with revenue estimates to determine which neighborhoods and property types present the strongest investment opportunities.
-
-## Business Questions
-
-1. Which Manhattan neighborhoods have the strongest rental demand?
-
-2. Which property sizes are most desirable to customers?
-
-3. Which listings generate the highest estimated revenue?
-
-4. What characteristics define high-performing investment opportunities?
-
-## Tools Used
-
-* Excel
-* Pivot Tables
-* SUMIF
-* Data Cleaning
-* Business Analysis
-
-## Skills Demonstrated
-
-* Data cleaning
-* Revenue modeling
-* Pivot table analysis
-* Market analysis
-* Investment analysis
-* Business recommendations
-
-## Key Findings
-
-* Harlem, Hell's Kitchen, and the Upper West Side emerged as attractive neighborhoods based on rental activity.
-
-* One-bedroom units consistently demonstrated strong demand across multiple neighborhoods.
-
-* Revenue potential varied substantially between listings.
-
-* Combining demand metrics with revenue estimates provided a stronger framework for identifying investment opportunities.
-
-## Recommendations
-
-* Prioritize neighborhoods with strong rental activity.
-
-* Focus investment strategies on high-demand property types.
-
-* Evaluate both demand and revenue metrics before making investment decisions.
-
-* Continue monitoring market trends over time.
-
-## Files Included
-
-- Spreadsheet_Data_Analysis_Project.xlsx
-
-- screenshots/01_top_neighborhoods.png
-
-- screenshots/02_property_size_preferences.png
-
-- screenshots/03_neighborhood_property_mix.png
-
-- screenshots/04_top_investment_opportunities.png
-
-
+This project demonstrates how spreadsheet analysis can be used to transform raw operational data into actionable business recommendations for investment decision-making.
