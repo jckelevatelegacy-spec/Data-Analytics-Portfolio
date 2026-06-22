@@ -59,6 +59,20 @@ This analysis answers the question:
 * Spreadsheet_Data_Analysis_Project.pdf
 * screenshots/
 
+* ## Project Preview
+
+### Executive Summary
+
+![Executive Summary](screenshots/executive_summary.png)
+
+### Neighborhood Analysis
+
+![Neighborhood Analysis](screenshots/neighborhood_analysis.png)
+
+### Bedroom Analysis
+
+![Bedroom Analysis](screenshots/bedroom_analysis.png)
+
 ## Project Outcome
 
 This project demonstrates how spreadsheet analysis can be used to transform raw operational data into actionable business recommendations for investment decision-making.
