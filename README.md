@@ -12,8 +12,6 @@ My current focus is expanding my portfolio while continuing to strengthen my ski
 
 ## Technical Skills
 
-## Technical Skills
-
 * SQL
 * PostgreSQL
 * Power BI
@@ -25,10 +23,6 @@ My current focus is expanding my portfolio while continuing to strengthen my ski
 * Data Cleaning
 * KPI Development
 
-## Featured Projects
-
-| Project                                         | Tools              | Description                                                                                                                                                                |
-| :---------------------------------------------- | :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 ## Featured Projects
 
 | Project                                         | Tools              | Description                                                                                                                     | View Project                                     |
