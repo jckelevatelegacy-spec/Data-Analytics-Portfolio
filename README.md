@@ -39,7 +39,7 @@ My current focus is expanding my portfolio while continuing to strengthen my ski
 | Superstore Profitability & Return Rate Analysis | Tableau            | Analyzed profitability and return rates to identify high-risk products and business improvement opportunities.                  | [Open](./Superstore_Profitability_Return_Rate)   |
 | E-commerce User Behavior & Retention Analysis   | SQL, Google Sheets | Evaluated conversion funnels and user retention trends to improve website performance.                                          | [Open](./E_Commerce_User_Behavior_Retention)                                     |
 | Airbnb Manhattan Listings Analysis              | Google Sheets      | Identified profitable Manhattan property investment opportunities using listing performance data.                               | [Open](./Airbnb_Manhattan_Listings_Analysis)                                      |
-| Fresh Beats Marketing Analysis                  | Google Sheets      | Developed a data-driven marketing strategy to increase free-to-paid user conversions.                                           | Coming Soon                                      |
+| Fresh Beats Marketing Analysis                  | Google Sheets      | Developed a data-driven marketing strategy to increase free-to-paid user conversions.                                           | [Open](./Fresh_Beats_Marketing_Analysis)                                     |
 | Superstore Return Rate Analysis                 | Tableau            | Investigated the drivers behind high product return rates and provided recommendations.                                         | Coming Soon                                      |
 
 
