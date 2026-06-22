@@ -39,6 +39,3 @@ My current focus is expanding my portfolio while continuing to strengthen my ski
 
 I am currently expanding my portfolio by building projects that combine SQL, relational databases, business analysis, Power BI, and data visualization to solve real-world business problems.
 
-## Career Goals
-
-I aim to leverage my analytical skills, business background, and passion for data storytelling to help organizations make data-driven decisions and solve real-world business challenges.
